@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+body {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	margin: 100px;
+	background-position: center;
+	padding-top: 3px;
+}
+
+#images div{
+	display: inline-block;
+	margin: 3px;
+	position: relative;
+}
+	#images div img{
+		border: 1.5px solid lightgrey;
+		border-radius: 3px;
+	}
+
+	#images div span{
+		color: honeydew;
+		background: rgba(0,0,0,0);
+		opacity: 0.9;
+		bottom: 2%;
+		left:0;
+		width: 100%;
+		position: absolute;
+	}
+
+footer {
+	clear: both;
+	background: lightblue;
+	margin-top: 50px;
+	border-radius: 3px;
+}
