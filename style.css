@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 50px;
+}
+
+body {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	margin: 100px;
+	background-position: center;
+	padding-top: 3px;
+}
